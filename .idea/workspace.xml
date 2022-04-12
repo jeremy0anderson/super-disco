@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49782803-40b4-4c65-9b82-66a424cab293" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/06 WorkDay-Scheduler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Develop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Develop/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +44,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -70,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649722627299</updated>
       <workItem from="1649722628395" duration="6472000" />
-      <workItem from="1649737167140" duration="6092000" />
+      <workItem from="1649737167140" duration="6231000" />
     </task>
     <servers />
   </component>
