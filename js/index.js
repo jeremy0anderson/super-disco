@@ -9,9 +9,11 @@ document.querySelector("#\\31 5 > textarea").value =localStorage.getItem("15");
 document.querySelector("#\\31 6 > textarea").value =localStorage.getItem("16");
 document.querySelector("#\\31 7 > textarea").value =localStorage.getItem("17");
 document.querySelectorAll('.hourNumber').forEach(hour =>{
-      hour.textContent=hour.parentElement.parentElement.id+"a"
+        hour.textContent=hour.parentElement.parentElement.id+"a"
       if (Number(hour.parentElement.parentElement.id)>12 && Number(hour.parentElement.parentElement.id)<24){
             hour.textContent = String(Number(hour.parentElement.parentElement.id)-12)+"p"
+      } else if ((Number(hour.parentElement.parentElement.id)===12)){
+            hour.textContent=hour.parentElement.parentElement.id+"p"
       }
 });
 let blocks = document.querySelectorAll('.row');
