@@ -8,7 +8,6 @@ document.querySelector("#\\31 4 > textarea").value =localStorage.getItem("14");
 document.querySelector("#\\31 5 > textarea").value =localStorage.getItem("15");
 document.querySelector("#\\31 6 > textarea").value =localStorage.getItem("16");
 document.querySelector("#\\31 7 > textarea").value =localStorage.getItem("17");
-
 document.querySelectorAll('.hourNumber').forEach(hour =>{
       hour.textContent=hour.parentElement.parentElement.id+"a"
       if (Number(hour.parentElement.parentElement.id)>12 && Number(hour.parentElement.parentElement.id)<24){
@@ -39,4 +38,7 @@ for (let i = 0; i < blocks.length; i++) {
             blocks[i].classList.remove('future', 'present');
       }
 }}, 1000);
+
+let today = document.querySelector('#currentDay');
+today.textContent = new Date().toLocaleDateString();
 
